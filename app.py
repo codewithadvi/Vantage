@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="StealthScout", layout="wide", page_icon="◆")
+st.set_page_config(page_title="Vantage", layout="wide", page_icon="◆")
 
 # ============================================================
 # DESIGN SYSTEM — custom CSS injected into Streamlit
@@ -176,7 +176,7 @@ def confidence_bar(score):
 # SIDEBAR
 # ============================================================
 with st.sidebar:
-    st.markdown('<div class="ss-brand">◆ StealthScout</div>', unsafe_allow_html=True)
+    st.markdown('<div class="ss-brand">◆ Vantage</div>', unsafe_allow_html=True)
     st.markdown('<div class="ss-brand-tag">Founder signal tracking — POC</div>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     view = st.radio("Navigate", ["Alert Feed", "Tracked Profiles", "Insights", "Scan Settings"], label_visibility="collapsed")
