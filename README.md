@@ -31,6 +31,8 @@ The system is structured around three layers:
 This reframes the product from a search tool into a monitoring tool. The deliverable is not a list of people; it is an indication that something has changed and may be worth a conversation.
 
 ## Architecture
+![Uploading stealthscout_backend_combined.png…]()
+
 
 ```
 LinkedIn data source
@@ -91,10 +93,6 @@ Not all status changes are equally meaningful. Someone leaving a company is a we
 - **Visualization:** Plotly
 - **Data layer (planned):** Third-party LinkedIn data API
 - **Classification layer (planned):** LLM-based profile labeling
-
-## Setup
-
-See [`SETUP.md`](./SETUP.md) for local environment setup and [`DEPLOY.md`](./DEPLOY.md) for deployment instructions.
 
 ## Known limitations
 
