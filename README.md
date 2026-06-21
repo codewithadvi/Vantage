@@ -31,7 +31,9 @@ The system is structured around three layers:
 This reframes the product from a search tool into a monitoring tool. The deliverable is not a list of people; it is an indication that something has changed and may be worth a conversation.
 
 ## Architecture
-![Uploading stealthscout_backend_combined.png…]()
+
+
+<img width="546" height="821" alt="image" src="https://github.com/user-attachments/assets/652a1b1f-42c7-4897-b335-28a694ff577d" />
 
 
 ```
